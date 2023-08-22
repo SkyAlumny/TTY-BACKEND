@@ -10,7 +10,7 @@ const functions = require("../structs/functions.js");
 const User = require("../model/user.js");
 const Friends = require("../model/friends.js");
 
-const port = 80;
+const port = 8050;
 const wss = new WebSocket({ server: app.listen(port) });
 const matchmaker = require("../matchmaker/matchmaker.js");
 

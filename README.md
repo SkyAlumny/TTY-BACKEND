@@ -6,6 +6,7 @@
 - [+] Account check API
 - [+] Status Bot
 - [+] Account register via API
+- [+] Inbuild register Website
 
 ## 📄 DOCS
 

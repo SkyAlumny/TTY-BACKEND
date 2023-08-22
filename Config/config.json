@@ -2,7 +2,10 @@
     "moderators": ["discordId"],
     "discord": {
         "bot_token": "",
-        "status_channel_Id": ""
+        "status_channel_Id": "",
+        "client_id": "",
+        "client_secret": "",
+        "auth_url": ""
     },
     "mongodb": {
         "database": "mongodb://127.0.0.1/lawindb"
@@ -11,7 +14,7 @@
         "//": "Disabling global chat can help the server to perform faster as less resources are used.",
         "EnableGlobalChat": false
     },
-    "matchmakerIP": "127.0.0.1:80",
+    "matchmakerIP": "127.0.0.1:8050",
     "gameServerIP": "127.0.0.1:7777",
     "APIKEY": "SET_TO_SOMETHING_SECURE"
 }
