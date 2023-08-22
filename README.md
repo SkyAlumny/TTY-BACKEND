@@ -7,7 +7,7 @@
 
 ## 📄 DOCS
 
-// Account Check api usage
+#### Account Check api usage
 
 - Located: routes/api.js | Line 6
 - URL: IP:PORT/api/accountcheck
