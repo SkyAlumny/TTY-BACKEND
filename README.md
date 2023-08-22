@@ -7,13 +7,16 @@
 
 ## 📄 DOCS
 
-### Account Check api usage
+// Account Check api usage
 
-> Located: routes/api.js | Line 6
-> URL: IP:PORT/api/accountcheck
-> Parameters: IP:PORT/apo/accountcheck?email=EMAIL&password=PASSWORD
-```
-Code 200 | Valid Login
-Code 401 | Password invalid (E-Mail is on the Database )
-Code 404 | E-Mail not found (E-Mail is not on the Database)
-```
+- Located: routes/api.js | Line 6
+- URL: IP:PORT/api/accountcheck
+- Parameters: IP:PORT/apo/accountcheck?email=EMAIL&password=PASSWORD
+
+| CODE | STATUS                                           |
+|------|--------------------------------------------------|
+| 200  | Valid Login                                      |
+| 401  | Password invalid (E-Mail is on the Database)     |
+| 404  | E-Mail not found (E-Mail is not on the Database) |
+
+more soon
