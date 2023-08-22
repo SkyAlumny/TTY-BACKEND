@@ -532,3 +532,4 @@ function isJSON(str) {
     }
     return true;
 }
+
