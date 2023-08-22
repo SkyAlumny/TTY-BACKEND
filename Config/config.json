@@ -12,5 +12,6 @@
         "EnableGlobalChat": false
     },
     "matchmakerIP": "127.0.0.1:80",
-    "gameServerIP": "127.0.0.1:7777"
+    "gameServerIP": "127.0.0.1:7777",
+    "APIKEY": "SET_TO_SOMETHING_SECURE"
 }
