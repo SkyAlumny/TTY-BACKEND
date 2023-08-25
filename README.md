@@ -1,4 +1,4 @@
-# LawinServerV2 Modified
+# TTY BACKEND
 ###  Origin by Lawin (https://github.com/Lawin0129/LawinServerV2)
 
 ## 📂 New Features
@@ -7,6 +7,7 @@
 - [+] Status Bot
 - [+] Account register via API
 - [+] Inbuild register Website
+- [+] Auto Shop updater
 
 ## 📄 DOCS
 

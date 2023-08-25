@@ -1,35 +1,58 @@
 {
-    "//": "BR Item Shop Config",
-    "daily1": {
-        "itemGrants": ["AthenaCharacter:cid_001_athena_commando_f_default"],
-        "price": 0
-    },
-    "daily2": {
-        "itemGrants": ["AthenaCharacter:cid_002_athena_commando_f_default"],
-        "price": 0
-    },
-    "daily3": {
-        "itemGrants": ["AthenaCharacter:cid_003_athena_commando_f_default"],
-        "price": 0
-    },
-    "daily4": {
-        "itemGrants": ["AthenaCharacter:cid_004_athena_commando_f_default"],
-        "price": 0
-    },
-    "daily5": {
-        "itemGrants": ["AthenaCharacter:cid_005_athena_commando_m_default"],
-        "price": 0
-    },
-    "daily6": {
-        "itemGrants": ["AthenaCharacter:cid_006_athena_commando_m_default"],
-        "price": 0
-    },
-    "featured1": {
-        "itemGrants": ["AthenaCharacter:cid_007_athena_commando_m_default"],
-        "price": 0
-    },
-    "featured2": {
-        "itemGrants": ["AthenaCharacter:cid_008_athena_commando_m_default"],
-        "price": 0
-    }
+  "daily1": {
+    "itemGrants": [
+      "AthenaCharacter:CID_248_Athena_Commando_M_BlackWidow"
+    ],
+    "price": 2000,
+    "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_248_athena_commando_m_blackwidow/icon.png"
+  },
+  "daily2": {
+    "itemGrants": [
+      "AthenaCharacter:CID_040_Athena_Commando_M_District"
+    ],
+    "price": 800,
+    "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_040_athena_commando_m_district/icon.png"
+  },
+  "daily3": {
+    "itemGrants": [
+      "AthenaBackpack:BID_070_DecoFemale"
+    ],
+    "price": 500,
+    "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_070_decofemale/icon.png"
+  },
+  "daily4": {
+    "itemGrants": [
+      "AthenaBackpack:BID_019_SkiGirl_GER"
+    ],
+    "price": 500,
+    "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_019_skigirl_ger/icon.png"
+  },
+  "daily5": {
+    "itemGrants": [
+      "AthenaBackpack:BID_050_Hazmat"
+    ],
+    "price": 500,
+    "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_050_hazmat/icon.png"
+  },
+  "daily6": {
+    "itemGrants": [
+      "AthenaCharacter:CID_022_Athena_Commando_F"
+    ],
+    "price": 1200,
+    "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_022_athena_commando_f/icon.png"
+  },
+  "featured1": {
+    "itemGrants": [
+      "AthenaCharacter:CID_153_Athena_Commando_F_CarbideBlack"
+    ],
+    "price": 2000,
+    "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_153_athena_commando_f_carbideblack/icon.png"
+  },
+  "featured2": {
+    "itemGrants": [
+      "AthenaCharacter:CID_072_Athena_Commando_M_Scout"
+    ],
+    "price": 1200,
+    "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_072_athena_commando_m_scout/icon.png"
+  }
 }

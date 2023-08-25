@@ -5,7 +5,7 @@ const fs = require("fs");
 const rateLimit = require("express-rate-limit");
 const jwt = require("jsonwebtoken");
 const config = JSON.parse(fs.readFileSync("./Config/config.json").toString());
-
+const cron = require('node-cron');
 const log = require("./structs/log.js");
 const error = require("./structs/error.js");
 const functions = require("./structs/functions.js");
@@ -43,6 +43,17 @@ mongoose.connection.on("error", err => {
     log.error("MongoDB failed to connect, please make sure you have MongoDB installed and running.");
     throw err;
 });
+
+
+if (config.shopAPI.useAPI) {
+    cron.schedule('2 0 * * *', () => {
+        functions.makeShop();
+        console.log('Generating Item Shop');
+    }, {
+        scheduled: true,
+        timezone: 'Europe/Berlin',
+    });
+}
 
 app.use(rateLimit({ windowMs: 0.5 * 60 * 1000, max: 45 }));
 app.use(express.json());

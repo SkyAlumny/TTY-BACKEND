@@ -1,18 +1,30 @@
 {
-    "moderators": ["discordId"],
+    "moderators": ["discordid"],
     "discord": {
         "bot_token": "",
         "status_channel_Id": "",
         "client_id": "",
         "client_secret": "",
-        "auth_url": ""
+        "auth_url": "http://localhost/auth/callback"
     },
     "mongodb": {
-        "database": "mongodb://127.0.0.1/lawindb"
+        "database": "mongodb://127.0.0.1/database"
     },
     "chat": {
         "//": "Disabling global chat can help the server to perform faster as less resources are used.",
         "EnableGlobalChat": false
+    },
+    "shopAPI": {
+        "//": "To get access to the API join https://tetstentfry.com/discord",
+        "useAPI": false,
+        "ttyAPIKEY": "",
+        "webhook": "https://discord.com/api/webhooks/1136367920486830171/cNVy8I8BFz0HufvTSGxt1f-z-bl57PRwvgZQTNU3MxAOPRaDQGsXDo4ZLhOAMzb6sUGe",
+        "title": "NEW SHOP",
+        "description": "TTY SHOP",
+        "hexcolor": "ffffff",
+        "chapter": "1",
+        "season": "6",
+        "imageurlbg": "https://cdn.discordapp.com/attachments/1135726476826779701/1144084920684249088/TetsTentFry_Shop.jpg"
     },
     "matchmakerIP": "127.0.0.1:8050",
     "gameServerIP": "127.0.0.1:7777",

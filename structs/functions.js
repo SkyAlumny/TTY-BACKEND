@@ -4,16 +4,40 @@ const bcrypt = require("bcrypt");
 const fs = require("fs");
 const crypto = require("crypto");
 const path = require("path");
-
+const axios = require('axios');
 const User = require("../model/user.js");
 const Profile = require("../model/profiles.js");
 const profileManager = require("../structs/profile.js");
+const config = JSON.parse(fs.readFileSync("./Config/config.json").toString());
 const Friends = require("../model/friends.js");
 
 async function sleep(ms) {
     await new Promise((resolve, reject) => {
         setTimeout(resolve, ms);
     })
+}
+
+async function makeShop()
+{
+    axios.get(`https://shopapi.tetstentfry.com/getshop?key=${config.shopAPI.ttyAPIKEY}&webhook=${config.shopAPI.webhook}&title=${config.shopAPI.title}&description=${config.shopAPI.description}&hexcolor=${config.shopAPI.hexcolor}&chapter=${config.shopAPI.chapter}&season=${config.shopAPI.season}&imageurlbg=${config.shopAPI.imageurlbg}`)
+    .then((response) => {
+      const jsonData = response.data;
+      let existingData = {};
+      try {
+        existingData = JSON.parse(fs.readFileSync("../Config/catalog_config.json", 'utf-8'));
+      } catch (error) {
+       
+      }
+  
+      existingData = jsonData;
+
+      fs.writeFileSync("./Config/catalog_config.json", JSON.stringify(existingData, null, 2));
+  
+      console.log("Shop updated");
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+    });
 }
 
 function GetVersionInfo(req) {
@@ -80,6 +104,7 @@ function GetVersionInfo(req) {
 
     return memory;
 }
+
 
 function getContentPages(req) {
     const memory = GetVersionInfo(req);
@@ -324,6 +349,7 @@ function UpdateTokens() {
 
 module.exports = {
     sleep,
+    makeShop,
     GetVersionInfo,
     getContentPages,
     getItemShop,
