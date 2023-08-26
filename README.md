@@ -9,6 +9,21 @@
 - [+] Inbuild register Website
 - [+] Auto Shop updater
 
+## INFO
+
+For a better version with 
+
+- [+] VBucks
+- [+] XP
+- [+] Discord Moderation Log
+- [+] Daily Vbucks
+- [+] More Mod Commands
+- [+] Stats for players
+- [+] Optimization on Game Server Load
+- [+] more advanced register Website
+
+Join [our Discord](https://tetstentfry.com/discord)
+
 ## 📄 DOCS
 
 Check the [WIKI Page](https://github.com/SkyAlumny/LawinServerV2-Modified/wiki)
@@ -20,3 +35,4 @@ https://github.com/SkyAlumny/LawinServerV2-Modified/assets/72314825/2acff167-3a0
 ## ⭐️ STAR
 
 If you leave a star you will make me happy : )
+
