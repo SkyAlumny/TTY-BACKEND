@@ -21,6 +21,7 @@ For a better version with
 - [+] Stats for players
 - [+] Optimization on Game Server Load
 - [+] more advanced register Website
+- [+] Donator system
 
 Join [our Discord](https://tetstentfry.com/discord)
 
