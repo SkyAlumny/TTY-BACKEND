@@ -23,7 +23,7 @@ For a better version with
 - [+] more advanced register Website
 - [+] Donator system
 
-Join [our Discord](https://tetstentfry.com/discord)
+Join [our Discord](https://discord.gg/75BcUN6QqE)
 
 ## 📄 DOCS
 
