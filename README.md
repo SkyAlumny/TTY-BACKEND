@@ -26,7 +26,7 @@ For a better version with
 - [+] more advanced register Website
 - [+] Donator system
 
-Join [our Discord](https://discord.gg/75BcUN6QqE)
+Join [our Discord](https://discord.gg/XdPfsfYbbq)
 
 ## 📄 DOCS
 
