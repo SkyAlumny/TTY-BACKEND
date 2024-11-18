@@ -1,5 +1,5 @@
 # TTY BACKEND
-###  Origin by Lawin (https://github.com/Lawin0129/LawinServerV2)
+###  [Origin by Lawin](https://github.com/Lawin0129/LawinServerV2)
 
 ## 💎 For Custom backends
 DM me on discord https://discord.gg/XdPfsfYbbq
