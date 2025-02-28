@@ -29,7 +29,6 @@ For a better version with
 Join [our Discord](https://discord.gg/XdPfsfYbbq)
 
 ## 📄 DOCS
-
 Check the [WIKI Page for docs](https://github.com/SkyAlumny/LawinServerV2-Modified/wiki)
 
 ## 🎥 Inbuild Register Website showcase (no css included)
