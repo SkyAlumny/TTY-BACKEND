@@ -44,3 +44,4 @@ If you leave a star you will make me happy : )
 DISCORD: https://discord.gg/XdPfsfYbbq
 
 (This is pretty much outdated and i dont give support for this project)
+
