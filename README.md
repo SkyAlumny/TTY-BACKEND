@@ -40,7 +40,6 @@ https://github.com/SkyAlumny/LawinServerV2-Modified/assets/72314825/2acff167-3a0
 ## ⭐️ STAR
 
 If you leave a star you will make me happy : )
-
 DISCORD: https://discord.gg/XdPfsfYbbq
 
 (This is pretty much outdated and i dont give support for this project)
